@@ -1,6 +1,10 @@
 import { Country } from '@/interfaces/country';
+import { NextApiRequest, NextApiResponse } from 'next';
 const baseUrl = `http://localhost:${process.env.NEXT_PUBLIC_PORT}`;
-export default async function handler(req, res) {
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse,
+) {
   try {
     const response = await fetch(`${baseUrl}/countries`);
     const data = await response.json();
