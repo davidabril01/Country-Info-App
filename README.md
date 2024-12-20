@@ -30,8 +30,8 @@ Ensure that you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/countries-info-app.git
-   cd countries-info-app/backend
+   git clone https://github.com/davidabril01/Country-Info-App.git
+   cd /backend
 
 2. Install dependencies:
 
@@ -73,7 +73,7 @@ Ensure that you have the following installed:
 
    ```bash
    git clone https://github.com/yourusername/countries-info-app.git
-   cd countries-info-app/frontend
+   cd /frontend
    ```
 
 2. Install dependencies:
@@ -140,7 +140,7 @@ The backend requires the following environment variables to function properly:
 
 ### Frontend `.env`
 
-The frontend does not require a `.env` file but may need adjustments depending on API URLs and deployment configurations.
+- `NEXT_PUBLIC_PORT`: The port on which the backend are runing (default: 4000).
 
 ## License
 
