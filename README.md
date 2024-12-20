@@ -140,7 +140,7 @@ The backend requires the following environment variables to function properly:
 
 ### Frontend `.env`
 
-The frontend does not require a `.env` file but may need adjustments depending on API URLs and deployment configurations.
+- `NEXT_PUBLIC_PORT`: The port on which the backend are runing (default: 4000).
 
 ## License
 
